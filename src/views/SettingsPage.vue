@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from 'vue'
-import useAPI from '@/comosables/useAPI'
+import useAPI from '@/composables/useAPI';
+
 
 const { instance } = useAPI()
 
